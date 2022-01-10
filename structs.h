@@ -100,7 +100,14 @@ typedef enum
     LINGOT_BRONZE,
     LINGOT_ARGENT,
     LINGOT_OR,
-    LINGOT_PLATINE
+    LINGOT_PLATINE,
+    WHITE_FRAGMENT,
+    BLACK_FRAGMENT ,
+    RED_FRAGMENT,
+    GREEN_FRAGMENT,
+    BLUE_FRAGMENT,
+    HEART_SINGLE,       // to restore one single point of Life (1 heart)
+    HEART_FULL              // to restore all points of Life (up to LifeMax, function of difficulty)
 } content;
 
 typedef enum
@@ -133,6 +140,7 @@ typedef struct
     bool isopen;
     content  inside;
     unsigned int scoreboost;
+    bool isvisible;
 } Treasure;
 
 typedef struct
@@ -140,4 +148,45 @@ typedef struct
     char x, y;
     unsigned char R,G,B,A;
     bool visited;
+    bool doorNorth;
+    bool doorSouth;
+    bool doorWest;
+    bool doorEast;
 } Minimap;
+
+typedef enum
+{
+    BLOB = 0,
+    BAT,
+    GHOST,
+    SPIDER,
+    SKELETON
+} monstertype;
+
+typedef struct
+{
+    unsigned char xcur, ycur;
+    unsigned char mini, maxi;
+    orientations direction;
+    orientations sens;
+    monstertype kind;
+} Monster;
+
+typedef enum
+{
+    B_RED = 0,
+    B_GREEN,
+    B_BLUE,
+    B_BLACK,
+    BIGBOSS
+} bosscolor;
+
+
+typedef struct
+{
+    unsigned char xcur, ycur;
+    unsigned char mini, maxi;
+    orientations direction;
+    orientations sens;
+    bosscolor color;
+} Boss;

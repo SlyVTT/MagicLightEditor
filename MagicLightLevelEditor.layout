@@ -1,30 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="Debug" />
-	<File name="structs.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<ActiveTarget name="Release" />
+	<File name="gtksdl.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="53122" topLine="1269" />
+			<Cursor1 position="70" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="1039" />
-			<Collapse line="1190" />
-			<Collapse line="1986" />
+			<Collapse line="29" />
+			<Collapse line="38" />
 		</Folding>
 	</File>
-	<File name="gtksdl.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="structs.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7504" topLine="68" />
+			<Cursor1 position="1956" topLine="120" />
 		</Cursor>
 	</File>
-	<File name="gtksdl.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="2" active="1" splitpos="820" zoom_1="1" zoom_2="1">
 		<Cursor>
-			<Cursor1 position="657" topLine="0" />
+			<Cursor1 position="18029" topLine="535" />
+			<Cursor2 position="793" topLine="18" />
 		</Cursor>
+		<Folding>
+			<Collapse line="553" />
+			<Collapse line="644" />
+			<Collapse line="741" />
+			<Collapse line="835" />
+			<Collapse line="920" />
+			<Collapse line="1003" />
+			<Collapse line="1086" />
+			<Collapse line="1170" />
+			<Collapse line="1244" />
+			<Collapse line="1314" />
+			<Collapse line="1387" />
+			<Collapse line="1469" />
+			<Collapse line="1576" />
+			<Collapse line="1639" />
+			<Collapse line="1741" />
+			<Collapse line="1837" />
+			<Collapse line="1921" />
+			<Collapse line="2007" />
+			<Collapse line="2097" />
+			<Collapse line="2183" />
+			<Collapse line="2268" />
+			<Collapse line="2364" />
+			<Collapse line="2426" />
+			<Collapse line="2508" />
+			<Collapse line="2586" />
+			<Collapse line="2668" />
+			<Collapse line="2730" />
+			<Collapse line="2811" />
+			<Collapse line="2897" />
+			<Collapse line="2974" />
+			<Collapse line="3059" />
+			<Collapse line="3139" />
+			<Collapse line="3228" />
+			<Collapse line="3330" />
+			<Collapse line="5075" />
+			<Collapse line="5180" />
+			<Collapse line="5248" />
+			<Collapse line="5307" />
+			<Collapse line="5335" />
+			<Collapse line="5647" />
+			<Collapse line="5706" />
+			<Collapse line="5952" />
+		</Folding>
+	</File>
+	<File name="gtksdl.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7504" topLine="123" />
+		</Cursor>
+		<Folding>
+			<Collapse line="18" />
+			<Collapse line="41" />
+			<Collapse line="69" />
+			<Collapse line="97" />
+			<Collapse line="185" />
+			<Collapse line="251" />
+			<Collapse line="305" />
+		</Folding>
 	</File>
 </CodeBlocks_layout_file>
